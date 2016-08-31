@@ -50,11 +50,7 @@ public func ComplementaryFlatColorOf(color: UIColor) -> UIColor {
  - returns: A flat UIColor object in the HSB colorspace.
  */
 public func RandomFlatColorWithShade(shade: UIShadeStyle) -> UIColor {
-<<<<<<< HEAD
     return UIColor(randomFlatColorOf: shade)
-=======
-	return UIColor(randomFlatColorOf: shade)
->>>>>>> e46702583698f36db0f71218822939c1884ee259
 }
 
 /**
