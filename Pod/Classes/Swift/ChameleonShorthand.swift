@@ -50,7 +50,11 @@ public func ComplementaryFlatColorOf(color: UIColor) -> UIColor {
  - returns: A flat UIColor object in the HSB colorspace.
  */
 public func RandomFlatColorWithShade(shade: UIShadeStyle) -> UIColor {
+<<<<<<< HEAD
     return UIColor(randomFlatColorOf: shade)
+=======
+	return UIColor(randomFlatColorOf: shade)
+>>>>>>> e46702583698f36db0f71218822939c1884ee259
 }
 
 /**
@@ -90,7 +94,11 @@ public func HexColor(hexString: String, _ alpha: CGFloat = 1.0) -> UIColor {
  - returns: A flat UIColor object in the HSB colorspace.
  */
 public func AverageColorFromImage(image: UIImage) -> UIColor {
+<<<<<<< HEAD
     return UIColor(averageColorFrom: image)
+=======
+	return UIColor(averageColorFrom: image)
+>>>>>>> e46702583698f36db0f71218822939c1884ee259
 }
 
 // MARK: - Array Methods Shorthand
@@ -107,7 +115,11 @@ Generates and creates an array of 5 color objects in the HSB colorspace from the
 - returns: An array of 5 color objects in the HSB colorspace.
 */
 public func ColorSchemeOf(colorSchemeType:ColorScheme, color:UIColor, isFlatScheme:Bool) -> [UIColor] {
+<<<<<<< HEAD
     return NSArray(ofColorsWith: colorSchemeType, using: color, withFlatScheme: isFlatScheme) as! [UIColor]
+=======
+	return NSArray(ofColorsWith: colorSchemeType, using: color, withFlatScheme: isFlatScheme) as! [UIColor]
+>>>>>>> e46702583698f36db0f71218822939c1884ee259
 }
 
 /**
@@ -120,7 +132,11 @@ Generates and creates an array of 5 color objects in the HSB colorspace that app
 */
 public func ColorsFromImage(image: UIImage, withFlatScheme: Bool) -> [UIColor] {
     // TODO: Remove forced casting
+<<<<<<< HEAD
     return NSArray(ofColorsFrom: image, withFlatScheme: withFlatScheme) as! [UIColor]
+=======
+	return NSArray(ofColorsFrom: image, withFlatScheme: withFlatScheme) as! [UIColor]
+>>>>>>> e46702583698f36db0f71218822939c1884ee259
 }
 
 
@@ -136,13 +152,18 @@ public func RandomFlatColor() -> UIColor {
 }
 
 public func ClearColor() -> UIColor {
+<<<<<<< HEAD
     return UIColor.clear
+=======
+    return UIColor.clear()
+>>>>>>> e46702583698f36db0f71218822939c1884ee259
 }
 
 
 // MARK: - Light Shades Shorthand
 
 public func FlatBlack() -> UIColor {
+<<<<<<< HEAD
 	return UIColor.flatBlack()
 }
 
@@ -236,6 +257,101 @@ public func FlatWhite() -> UIColor {
 
 public func FlatYellow() -> UIColor {
 	return UIColor.flatYellow()
+=======
+	return UIColor.flatBlack() 
+}
+
+public func FlatBlue() -> UIColor {
+	return UIColor.flatBlue() 
+}
+
+public func FlatBrown() -> UIColor {
+	return UIColor.flatBrown() 
+}
+
+public func FlatCoffee() -> UIColor {
+	return UIColor.flatCoffee() 
+}
+
+public func FlatForestGreen() -> UIColor {
+	return UIColor.flatForestGreen() 
+}
+
+public func FlatGray() -> UIColor {
+	return UIColor.flatGray() 
+}
+
+public func FlatGreen() -> UIColor {
+	return UIColor.flatGreen() 
+}
+
+public func FlatLime() -> UIColor {
+	return UIColor.flatLime() 
+}
+
+public func FlatMagenta() -> UIColor {
+	return UIColor.flatMagenta() 
+}
+
+public func FlatMaroon() -> UIColor {
+	return UIColor.flatMaroon() 
+}
+
+public func FlatMint() -> UIColor {
+	return UIColor.flatMint() 
+}
+
+public func FlatNavyBlue() -> UIColor {
+	return UIColor.flatNavyBlue() 
+}
+
+public func FlatOrange() -> UIColor {
+	return UIColor.flatOrange() 
+}
+
+public func FlatPink() -> UIColor {
+	return UIColor.flatPink() 
+}
+
+public func FlatPlum() -> UIColor {
+	return UIColor.flatPlum() 
+}
+
+public func FlatPowderBlue() -> UIColor {
+	return UIColor.flatPowderBlue() 
+}
+
+public func FlatPurple() -> UIColor {
+	return UIColor.flatPurple() 
+}
+
+public func FlatRed() -> UIColor {
+	return UIColor.flatRed() 
+}
+
+public func FlatSand() -> UIColor {
+	return UIColor.flatSand() 
+}
+
+public func FlatSkyBlue() -> UIColor {
+	return UIColor.flatSkyBlue() 
+}
+
+public func FlatTeal() -> UIColor {
+	return UIColor.flatTeal() 
+}
+
+public func FlatWatermelon() -> UIColor {
+	return UIColor.flatWatermelon() 
+}
+
+public func FlatWhite() -> UIColor {
+	return UIColor.flatWhite() 
+}
+
+public func FlatYellow() -> UIColor {
+	return UIColor.flatYellow() 
+>>>>>>> e46702583698f36db0f71218822939c1884ee259
 }
 
 // MARK: - Chameleon - Dark Shades Shorthand
